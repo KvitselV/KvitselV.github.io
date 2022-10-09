@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+body {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color:gray;
+}
+a:active{
+    color:black;
+}
+
+/* Box model */
+.container{
+    max-width: 50%;
+    margin: auto;  /* Внешние отступы */
+}
+.URL {
+    
+    background: rgb(63, 63, 63);
+    border-radius: 28px;
+    padding: 15px ; /* Внутренние отступы в блоке */ /*padding: 10px 15px 20px 25px; указание каждой стороны*/
+    border: 3px solid rgb(150, 150, 150); /* Граница (:ширина границы стиль цвет) */
+    margin: 10px;
+}
+.list{
+    padding: 0 20px;
+}
+.list li{
+    margin-bottom: 15px;
+}
+.info{
+    display: flex;
+    padding-left:30%;
+}
+.info h1{
+    margin-left:40px;
+    color:gray;
+}
+.navigation{
+    background: rgb(63, 63, 63);
+    max-width: 40%;
+    margin:auto;
+    padding: 20px 10px;
+    border: 3px solid rgb(151, 151, 151)
+}
+.navigation a{
+    margin-left:105px;
+}
+.ul{
+    list-style: none;
+    padding:0;
+}
+.table {
+    max-width: 40%;
+    margin: 50px;
+    background-color: rgb(63, 63, 63);
+}
+.table th{
+    padding-right: 100px;
+}
+.odd {
+background-color: rgb(49, 49, 49);
+}
+footer p{
+    color:rgb(60,60,60);
+    display: flex;
+    justify-content: center;
+}
