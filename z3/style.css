@@ -29,7 +29,7 @@ a:active{
     padding: 15px ; /* Внутренние отступы в блоке */ /*padding: 10px 15px 20px 25px; указание каждой стороны*/
     border: 3px solid rgb(150, 150, 150); /* Граница (:ширина границы стиль цвет) */
     margin: 10px;
-    border-radius: 5px                  ;
+    border-radius: 50px                  ;
 }
 .list{
     padding: 0 20px;
@@ -49,18 +49,18 @@ a:active{
 .navigation{
     background: rgb(37, 37, 37);
     max-width: 100%;
-    margin: 10px;
+    margin: 30px;
     display: flex;
     margin:auto;
-    padding: 20px;
+    padding: 30px;
     border: 3px solid rgb(151, 151, 151);
-    border-radius: 5px;
+    border-radius: 100px;
     flex-direction: column;
 }
 .navigation a{
     max-width: 100%;
-    margin: 10px 0;
-    padding: 10px; 
+    margin: 10px 0px;
+    padding: 10px;
     background-color: rgb(59, 61, 63);
     border-radius: 10px;
     text-transform: uppercase;
@@ -103,7 +103,7 @@ a:active{
     order:2;
 }
 td,th {
-    width: 150px;
+    width: 190px;
 	padding: 10px;
 	font-size: 15px;
 }
@@ -123,9 +123,10 @@ footer p{
         display: flex;
         flex-direction: row;
         
+        
     }
     .navigation a{
-        margin-left:105px;
+        margin-left:170px;
         padding: 10px;     
     }
     .container{
