@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 
 <html lang="ru">
 
@@ -125,82 +126,71 @@
     </table>
 
     <div class="URL">
-    <h3 align="center">Форма HTML</h3>
     <p id="id1"></p>
-    <form action="/"
-      method="POST">
+   <form role="form">
+      <div class="form">
+        <h2 align="center">Форма HTML</h2>
+        <br>  
+        <label>Имя: </label>
+        <input type="text" class="form-control" required><br>
+        <br>
 
-      <label>
-        Введите ваше имя:<br />
-        <input name="field-name-1"
-          placeholder="имя" />
-      </label><br />
+        <label>e-mail: </label>
+        <input type="email" class="form-control " required><br>
+        <br>
 
-      <label>
-        Введите ваш email:<br />
-        <input name="field-email"
-          type="email"
-          placeholder="Введите вашу почту" />
-      </label><br />
+        <label>Дата рождения: </label>
+        <input type="date" class="form-control " required>
+        <br>
 
-      <label>
-        Введите вашу дату рождение:<br />
-        <input name="field-date"
-          value="2019-08-13"
-          type="date" />
-      </label><br />
-
-      Ваш пол:<br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение1" />
-        Муж</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение2" />
-        Жен</label><br />
-
-      Количество конечностей:<br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение1" />
-        1</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение2" />
-        2</label><br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение3" />
-        3</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение4" />
-        4</label><br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение5" />
-        5</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение6" />
-        6</label><br />
-
+        <label>Пол: </label><br>
         <label>
-        Ваши сверхспособности:
-        <br />
-        <select name="field-name-4[]"
-          multiple="multiple">
-          <option value="Значение1">Бессмертие</option>
-          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
-          <option value="Значение3" selected="selected">Левитация</option>
+          <input type="radio" value="value-1" name="gender" required>Мужской
+        </label>
+        <label>
+          <input type="radio" value="value-2" name="gender" required>Женский
+        </label>
+        <br>
+        <br>
+
+        <label>Количество конечностей: <br></label>
+        <label>
+          <input type="radio" value="1" name="amount" required>1
+        </label>
+        <label>
+          <input type="radio" value="2" name="amount" required>2
+        </label>
+        <label>
+          <input type="radio" value="3" name="amount" required>3
+        </label>
+        <label>
+          <input type="radio" value="4" name="amount" required>4
+        </label>
+        <br>
+        <br>
+
+        <label>Сверхспособности:</label><br>
+        <select name="cool">
+          <option value="1" required>Отсутствуют</option>
+          <option value="2" required>Бессмертие</option>
+          <option value="3" required>Прохождение сквозь стены</option>
+          <option value="4" required>Левитация</option>
+          <option value="5" required>Регенерация</option>
         </select>
-      </label><br />
+        <br>
+        <br>
 
-      <label>
-        Ваша биография:<br />
-        <textarea name="field-name-2"></textarea>
-      </label><br />
-
-      С контрактом ознакомлен(а):<br />
-      <label><input type="checkbox" checked="checked"
-        name="check-1" />
-        </label><br />
-
-      <input type="submit" value="Отправить" />
-    </form>
+        <label>Биография:</label><br>
+        <textarea name="field" cols="50" rows="10" required class="form-control сol-6 col-lg-3"></textarea>
+        <br>
+        <div class="checkbox">
+          <label for="submit">
+            <input type="checkbox" name="submit"> С контрактом ознакомлен
+          </label>
+        </div>
+        <input type="submit" value="Отправить" class="m-2">
+      </div>
+  </form>
   </div>
   </div>
   </body>
