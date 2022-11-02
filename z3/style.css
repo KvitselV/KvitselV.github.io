@@ -26,7 +26,7 @@ a:active{
 .URL {
     
     background: rgb(63, 63, 63);
-    padding: 15px ; /* Внутренние отступы в блоке */ /*padding: 10px 15px 20px 25px; указание каждой стороны*/
+    padding: 8vw ; /* Внутренние отступы в блоке */ /*padding: 10px 15px 20px 25px; указание каждой стороны*/
     border: 3px solid rgb(150, 150, 150); /* Граница (:ширина границы стиль цвет) */
     margin: 10px;
     border-radius: 50px                  ;
